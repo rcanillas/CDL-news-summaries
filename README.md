@@ -10,3 +10,6 @@ Ok ! Alors pour le coup ce truc n'est pas finalisé mais concrètement:
 
 Idéalement on pourra aussi voir si on peut définir & commencer à implémenter des features plus stylées (des pouces pour des contenus plus intéressant, qui seraient analysés par la machine pour requêter plus intelligemment l'api, d'autres sources de news, etc) mais ça c'est pour plus tard.
 L'idée est d'avoir un truc simple qui marche de bout en bout ⚙️ 
+
+### Schéma
+https://docs.google.com/drawings/d/1YqrF8Mu0iQAG6C2zvmxF8V3-ILZYDck_HoAamj-4_Ls/edit
