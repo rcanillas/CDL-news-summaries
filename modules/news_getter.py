@@ -16,7 +16,7 @@ class NewsGetter:
 
     def get_tech_articles(self):
         headers = {"X-ACCESS-KEY": self.api_key}
-        params = {"category": "technology", "language": "fr,en", "size": 2}
+        params = {"category": "technology", "language": "fr,en", "size": 10}
         tech_articles = requests.get(self.url, headers=headers, params=params).json()
         pprint(tech_articles)
         return tech_articles

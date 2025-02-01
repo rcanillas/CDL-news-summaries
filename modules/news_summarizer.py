@@ -1,4 +1,4 @@
-import news_getter
+from modules import news_getter
 
 from openai import OpenAI
 from pprint import pprint
