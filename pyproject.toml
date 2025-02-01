@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "news_summaries"
+version = "0.1.0"
+description = "Un projet Python pour résumer des news"
+authors = [{ name = "Rémi Canillas", email = "remi.canillas@gmail.com" }]
+dependencies = [
+    "requests",
+    "python-dotenv"
+]
