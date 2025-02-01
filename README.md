@@ -13,3 +13,6 @@ L'idée est d'avoir un truc simple qui marche de bout en bout ⚙️
 
 ### Schéma
 https://docs.google.com/drawings/d/1YqrF8Mu0iQAG6C2zvmxF8V3-ILZYDck_HoAamj-4_Ls/edit
+
+### Pour installer 
+pip install .

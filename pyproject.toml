@@ -9,5 +9,6 @@ description = "Un projet Python pour résumer des news"
 authors = [{ name = "Rémi Canillas", email = "remi.canillas@gmail.com" }]
 dependencies = [
     "requests",
-    "python-dotenv"
+    "python-dotenv",
+    "openai",
 ]
