@@ -19,7 +19,7 @@ articles = [
 ]
 
 # Configuration de l'interface Streamlit
-st.title("Articles en cartes")
+st.title("Articles en cartes :joy:")
 
 # Affichage des articles sous forme de cartes
 for article in articles:
