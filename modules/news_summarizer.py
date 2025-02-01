@@ -32,7 +32,12 @@ def summarize_news(news_list):
         summary_msg = completion.choices[0].message.content
         print(summary_msg)
         summary_list.append(
-            {"article_id": news_item["article_id"], "summary_msg": summary_msg}
+            {
+                "article_source": news_item["source_name"],
+                "article_title": news_item["title"],
+                "article_id": news_item["article_id"],
+                "summary_msg": summary_msg,
+            }
         )
     return summary_list
 
