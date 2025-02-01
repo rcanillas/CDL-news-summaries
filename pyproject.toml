@@ -11,5 +11,7 @@ dependencies = [
     "requests",
     "python-dotenv",
     "openai",
-    "streamlit"
+    "streamlit",
+    "newspaper3k",
+    "lxml_html_clean"
 ]
